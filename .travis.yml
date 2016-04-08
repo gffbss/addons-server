@@ -14,6 +14,9 @@ env:
   - TOX_ENV=editors
   - TOX_ENV=main
 
+matrix:
+  fast_finish: true
+
 cache:
   directories:
     - node_modules
